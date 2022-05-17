@@ -1,0 +1,12 @@
+<h1>List all tasks :</h1>
+
+
+  <%@tasks.each do |task|%>
+  <div>
+        <input type="checkbox" id="check" name="task">
+        <label for="task"><%=task["title"]%></label>
+  <div>
+  <% end %>
+</div>
+
+<%# to do : link_to each label %>
